@@ -16,16 +16,19 @@
     "build": "tsc",
     "watch": "tsc -w",
     "test": "jest",
-    "cdk": "cdk"
+    "cdk": "cdk",
+    "lint": "eslint ./src --ext .js,.jsx,.ts,.tsx,.vue --ignore-path .gitignore --cache",
+    "lint:fix": "eslint ./src --ext .js,.jsx,.ts,.tsx,.vue --ignore-path .gitignore --cache --fix"
   },
   "devDependencies": {
     "@antfu/eslint-config-ts": "^0.37.0",
     "@types/jest": "^29.4.0",
     "@types/node": "18.15.9",
+    "aws-cdk": "2.70.0",
+    "aws-sdk": "^2.1343.0",
     "eslint": "^8.36.0",
     "jest": "^29.5.0",
     "ts-jest": "^29.0.5",
-    "aws-cdk": "2.70.0",
     "ts-node": "^10.9.1",
     "typescript": "~5.0.2"
   },

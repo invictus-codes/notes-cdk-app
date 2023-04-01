@@ -1,0 +1,29 @@
+{
+  "name": "@invictus-codes/notes-cdk-app-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "3.245.0",
+    "@aws-sdk/util-dynamodb": "3.245.0"
+  },
+  "scripts": {
+    "build": "tsc --noEmit && npx ts-node --esm --prefer-ts-exts build.ts",
+    "build:backend": "cd .. && pnpm build:backend",
+    "cdk": "cd .. && pnpm cdk",
+    "lint": "eslint ./src --ext .js,.jsx,.ts,.tsx,.vue --cache",
+    "lint:fix": "eslint ./src --ext .js,.jsx,.ts,.tsx,.vue --cache --fix"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config-ts": "^0.37.0",
+    "@types/aws-lambda": "^8.10.64",
+    "@types/node": "^18.11.18",
+    "@typescript-eslint/eslint-plugin": "^5.57.0",
+    "@typescript-eslint/parser": "^5.57.0",
+    "esbuild": "0.12.17",
+    "eslint": "^8.31.0",
+    "glob": "^9.3.2",
+    "typescript": ">=5.0.2"
+  },
+  "sideEffects": false
+}

@@ -1,0 +1,21 @@
+{
+  "name": "@invictus-codes/notes-cdk-app-infra",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc --noEmit",
+    "cdk": "tsc --noEmit && cdk",
+    "lint": "eslint ./src --ext .js,.jsx,.ts,.tsx,.vue --cache",
+    "lint:fix": "eslint ./src --ext .js,.jsx,.ts,.tsx,.vue --cache --fix"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.59.0",
+    "constructs": "10.1.215"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config-ts": ">=0.37.0",
+    "eslint": "^8.36.0",
+    "@types/node": "^18.11.18",
+    "aws-cdk": "2.59.0",
+    "typescript": ">=5.0.2"
+  }
+}

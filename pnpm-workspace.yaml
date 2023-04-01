@@ -1,0 +1,4 @@
+packages:
+  - "packages/infra"
+  - "packages/backend"
+  - "packages/frontend"

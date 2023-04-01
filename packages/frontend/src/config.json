@@ -1,0 +1,7 @@
+{
+  "FILES_BUCKET": "aws-sdk-js-notes-app-filesbucket2b30d8e0-1oyobm2f8o9yx",
+  "GATEWAY_URL": "https://sj33yjhdb3.execute-api.eu-west-1.amazonaws.com/prod/",
+  "IDENTITY_POOL_ID": "eu-west-1:2baa3fcf-9465-452c-8260-2567d13d3005",
+  "REGION": "eu-west-1",
+  "MAX_FILE_SIZE": 2000000
+}
